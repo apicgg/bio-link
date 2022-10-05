@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+          el: '#vanta',
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          backgroundAlpha: 0.0,
+          color2: 0xff00f0,
+          wingSpan: 40.0,
+          separation: 100.0,
+          alignment: 77.0,
+          cohesion: 5.0,
+          quantity: 1.0,
+        })
+        const main = document.querySelector('main')
+        main.style.opacity = 1
+      })
+    </script>
+    <title>Anurag Pramanik - Links</title>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <img src="assets/images/anurag-img-lg.jpg" alt="Anurag image" />
+        <h1>@apicgg</h1>
+      </header>
+      <ul>
+        <li>
+          <a
+            href="https://anuragp.dev/"
+            target="_blank"
+            rel="noreferrer noopener">
+            <img
+              src="assets/images/homepage.svg"
+              alt="home button"
+              width="20" />
+            Website
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/apicgg/"
+            target="_blank"
+            rel="noreferrer noopener">
+            <img src="assets/images/github.svg" alt="home button" width="20" />
+            GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/apicgg/"
+            target="_blank"
+            rel="noreferrer noopener">
+            <img src="assets/images/twitter.svg" alt="home button" width="20" />
+            Twitter</a
+          >
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
